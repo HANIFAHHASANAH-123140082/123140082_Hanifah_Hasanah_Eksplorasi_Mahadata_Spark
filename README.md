@@ -33,3 +33,18 @@ Eksperimen ini berfokus pada tugas klasifikasi biner untuk mendeteksi partikel H
 ├── requirements.txt                                            # Daftar dependensi pustaka Python
 ├── grafik_perbandingan_model.png                               # Gambar grafik visualisasi hasil uji
 └── README                                                      # Dokumentasi dan panduan repositori
+
+---
+
+## Cara Menjalankan Eksperimen
+
+### 1. Menjalankan di Google Colab
+1. Buka berkas `123140082_Hanifah_Hasanah_Eksplorasi_Mahadata_Spark.ipynb` yang ada di repositori ini.
+2. Unduh atau buka notebook tersebut langsung di Google Colab.
+3. Jalankan sel kode secara berurutan dari atas ke bawah (*Runtime* -> *Run all*).
+
+### 2. Menjalankan di Lingkungan Lokal
+Pastikan Java 8/11/17 dan Python 3.9+ telah terpasang di komputer Anda:
+```bash
+# Pasang dependensi pustaka
+pip install -r requirements.txt
