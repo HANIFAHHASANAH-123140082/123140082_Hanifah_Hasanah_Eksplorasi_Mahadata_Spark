@@ -49,6 +49,7 @@ Pastikan Java 8/11/17 dan Python 3.9+ telah terpasang di komputer Anda:
 ```bash
 # Pasang dependensi pustaka
 pip install -r requirements.txt
+```
 
 ---
 
