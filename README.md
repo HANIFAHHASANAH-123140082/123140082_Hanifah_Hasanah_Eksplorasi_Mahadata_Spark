@@ -69,4 +69,4 @@ Berdasarkan pengujian pada 50.000 data sampel dengan pembagian 80% data latih (4
 ---
 
 ### Visualisasi Hasil Eksperimen
-![Grafik Perbandingan Model](grafik_perbandingan_model)
+![Grafik Perbandingan Model](grafik_perbandingan_model.png)
