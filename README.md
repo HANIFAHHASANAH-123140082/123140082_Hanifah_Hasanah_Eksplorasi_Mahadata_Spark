@@ -65,4 +65,7 @@ Berdasarkan pengujian pada 50.000 data sampel dengan pembagian 80% data latih (4
 | **F1-Score** | 0.5142 | 0.5142 | Kinerja seimbang terhadap sebaran kelas data. |
 | **Area Under ROC (AUC)** | **0.5030** | 0.4971 | Berada pada batas pemisahan kelas acak representatif. |
 
-Visualisasi perbandingan waktu komputasi dan akurasi tersimpan pada berkas `grafik_perbandingan_model.png`.
+---
+
+### Visualisasi Hasil Eksperimen
+![Grafik Perbandingan Model](grafik_perbandingan_model.png)
