@@ -59,8 +59,9 @@ Berdasarkan pengujian pada 50.000 data sampel dengan pembagian 80% data latih (4
 
 | Metrik Evaluasi | Model 1: Logistic Regression (LR) | Model 2: Random Forest (RF) | Analisis Singkat |
 | :--- | :---: | :---: | :--- |
-| **Waktu Latih (Training Time)** | **9.19 detik** | 12.35 detik | LR lebih cepat ~3 detik karena komputasi linear lebih sederhana dibanding membangun 20 pohon pada RF. |
-| **Waktu Prediksi (Testing Time)** | 0.21 detik | **0.08 detik** | Inferensi data uji pada RF sangat cepat setelah struktur pohon terbentuk. |
+| **Waktu Latih (Training Time)** | **9.48 detik** | 15.38 detik | LR lebih cepat sekitar 5.9 detik (sekitar 38.4%) karena optimasi gradien linier lebih hemat komputasi dibanding pembentukan 20 pohon pada RF. |
+| **Waktu Prediksi (Testing Time)** | 0.75 detik | **0.12 detik** | RF lebih cepat sekitar 0.63 detik (sekitar 84.0%) karena evaluasi inferensi pohon hanya berupa percabangan biner dangkal (*maxDepth=5*). |
+| **Total Waktu Eksekusi** | 10.23 detik | 15.50 detik | LR lebih unggul dalam efisiensi komputasi global. |
 | **Akurasi** | 65.17% | 65.17% | Keduanya mencapai akurasi seimbang pada data uji representatif. |
 | **F1-Score** | 0.5142 | 0.5142 | Kinerja seimbang terhadap sebaran kelas data. |
 | **Area Under ROC (AUC)** | **0.5030** | 0.4971 | Berada pada batas pemisahan kelas acak representatif. |
